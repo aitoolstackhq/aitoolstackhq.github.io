@@ -1,0 +1,108 @@
+<!doctype html>
+<!--
+  AI TOOLSTACK LANDING PAGE - chatgpt-prompts.html
+  LINK SWAP INSTRUCTIONS: every affiliate button currently points to the Beacons hub
+  with a unique UTM. When a direct affiliate link is approved, search this file for
+  utm_content=<toolname> and replace that entire href with the affiliate URL.
+  EMAIL CTA: search for utm_content=starter-guide and replace with the MailerLite
+  form URL for the "AI Toolkit Leads" group.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10 ChatGPT Prompts That Save 10 Hours a Week (Copy &amp; Paste) | AI Toolstack</title>
+<meta name="description" content="10 copy-paste ChatGPT prompts that save hours every week: email triage, planning, learning, content ideas and more, plus the formula behind them.">
+<meta property="og:title" content="10 ChatGPT Prompts That Save 10 Hours a Week (Copy &amp; Paste) | AI Toolstack">
+<meta property="og:description" content="10 copy-paste ChatGPT prompts that save hours every week: email triage, planning, learning, content ideas and more, plus the formula behind them.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<style>:root{
+  --ink:#0C1526; --card:#131F38; --card2:#182747; --blue:#3D7BFF; --lime:#C6F32A;
+  --text:#EFF3FA; --muted:#8A97B0; --line:#22314F;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{background:var(--ink);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+a{color:var(--blue)}
+header{border-bottom:1px solid var(--line);padding:14px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;letter-spacing:.02em}
+.brand .mark{display:inline-block;width:22px;height:22px;position:relative}
+.brand .mark i{position:absolute;left:0;right:0;height:5px;border-radius:2px;background:var(--blue)}
+.brand .mark i:nth-child(1){top:0;background:var(--lime)}
+.brand .mark i:nth-child(2){top:8px}
+.brand .mark i:nth-child(3){top:16px;width:70%}
+.eyebrow{color:var(--lime);font-family:"Space Grotesk",sans-serif;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin:34px 0 10px}
+h1{font-family:"Space Grotesk",sans-serif;font-size:clamp(28px,6vw,40px);line-height:1.15;letter-spacing:-.01em;margin-bottom:14px}
+.dek{color:var(--muted);font-size:17px;margin-bottom:16px}
+.meta{color:var(--muted);font-size:13px;margin-bottom:22px}
+.disclosure{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--lime);border-radius:8px;padding:12px 14px;font-size:13.5px;color:var(--muted);margin-bottom:30px}
+h2{font-family:"Space Grotesk",sans-serif;font-size:22px;margin:36px 0 14px}
+p{margin-bottom:14px}
+.quick{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:8px}
+.quick ul{list-style:none}
+.quick li{padding:7px 0;border-bottom:1px solid var(--line);font-size:15px}
+.quick li:last-child{border-bottom:none}
+.quick b{color:var(--lime)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:18px 0;position:relative}
+.rank{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.rank .num{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:15px;color:var(--ink);background:var(--lime);border-radius:7px;padding:2px 9px}
+.rank h3{font-family:"Space Grotesk",sans-serif;font-size:20px}
+.bestfor{color:var(--blue);font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:10px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+.facts span{background:var(--card2);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:12.5px;color:var(--muted)}
+.facts span b{color:var(--text);font-weight:600}
+.stack{display:flex;align-items:flex-end;gap:3px;height:16px;margin:2px 0 12px}
+.stack i{width:9px;background:var(--card2);border-radius:2px;height:100%}
+.stack i.on{background:var(--lime)}
+.stack i:nth-child(1){height:40%}.stack i:nth-child(2){height:55%}.stack i:nth-child(3){height:70%}.stack i:nth-child(4){height:85%}.stack i:nth-child(5){height:100%}
+.btn{display:block;text-align:center;background:var(--blue);color:#fff;text-decoration:none;font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:15.5px;border-radius:10px;padding:13px 18px;margin-top:14px;transition:filter .15s}
+.btn:hover{filter:brightness(1.12)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--lime);outline-offset:2px}
+.btn.lime{background:var(--lime);color:var(--ink)}
+.magnet{background:linear-gradient(160deg,var(--card2),var(--card));border:1px solid var(--blue);border-radius:14px;padding:22px;margin:40px 0}
+.magnet h2{margin-top:0}
+.faq details{border-bottom:1px solid var(--line);padding:12px 0}
+.faq summary{cursor:pointer;font-weight:600;font-family:"Space Grotesk",sans-serif}
+.faq p{margin-top:10px;color:var(--muted)}
+.more{display:grid;gap:10px;margin:16px 0 8px}
+.more a{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 16px;text-decoration:none;color:var(--text);font-size:15px}
+.more a:hover{border-color:var(--blue)}
+footer{border-top:1px solid var(--line);margin-top:48px;padding:26px 0 40px;color:var(--muted);font-size:13px}
+footer p{margin-bottom:10px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>AI Toolstack</a></div></header>
+<main class="wrap">
+<p class="eyebrow">AI Toolstack &middot; Tested Picks</p>
+<h1>ChatGPT Prompts That Save 10 Hours a Week</h1>
+<p class="dek">Ten copy-paste prompts that turn ChatGPT from a toy into an assistant, plus the four-part formula professionals use to write their own.</p>
+<p class="meta">Updated July 2026 &middot; By AI Toolstack</p>
+<div class="disclosure"><b>Disclosure:</b> some links on this page are affiliate links. If you sign up through them, AI Toolstack may earn a commission at no extra cost to you. We only list tools we would use ourselves.</div>
+<p>Most people type one lazy sentence into ChatGPT and get a lazy answer back. These ten prompts are reusable systems: fill the brackets, paste, and get work done in minutes that used to take an hour. They are pulled from the 50-prompt pack inside our free starter guide.</p>
+<article class="card"><div class="rank"><span class="num">01</span><h3>Email triage</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">Summarize the following email thread in 3 bullets, then draft a polite reply that [your goal]. Keep it under 120 words.</p></article><article class="card"><div class="rank"><span class="num">02</span><h3>Meeting prep</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">I have a meeting about [topic] with [role]. List the 5 questions they are most likely to ask and strong one-paragraph answers for each.</p></article><article class="card"><div class="rank"><span class="num">03</span><h3>Weekly planning</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">Here are my tasks: [paste list]. Group them by energy level required, then build me a realistic Mon&ndash;Fri schedule with no more than 3 deep-work blocks per day.</p></article><article class="card"><div class="rank"><span class="num">04</span><h3>Learning anything</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">Explain [concept] three times: to a 10-year-old, to a college student, and to an expert. Then give me a 5-question quiz.</p></article><article class="card"><div class="rank"><span class="num">05</span><h3>Content ideas</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">Act as a content strategist for [niche]. Give 15 post ideas ranked by how likely they are to be saved or shared, with a hook line for each.</p></article><article class="card"><div class="rank"><span class="num">06</span><h3>Decision making</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">I am deciding between [option A] and [option B]. Argue for each one as its strongest advocate, then tell me what information would change the answer.</p></article><article class="card"><div class="rank"><span class="num">07</span><h3>Rewriting</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">Rewrite this to be clearer and 30% shorter without losing meaning. Flag anything that sounded like jargon: [paste text].</p></article><article class="card"><div class="rank"><span class="num">08</span><h3>Job applications</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">Here is a job description and my resume: [paste both]. List the 5 strongest matches, the 2 biggest gaps, and rewrite my summary section to target this role.</p></article><article class="card"><div class="rank"><span class="num">09</span><h3>Research shortcut</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">Give me the 80/20 of [topic]: the 20% of concepts that explain 80% of it, each in two sentences, with the most common beginner mistake.</p></article><article class="card"><div class="rank"><span class="num">10</span><h3>Daily assistant</h3></div><p style="background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14.5px;color:var(--text)">You are my chief of staff. Each morning I will paste my calendar and tasks. Return: top 3 priorities, what to delegate or drop, and one thing I am forgetting.</p></article>
+<h2>How to get 10x better answers</h2>
+<p>Every strong prompt has four parts: a <b>role</b> (who the AI should act as), <b>context</b> (your situation and constraints), a <b>task</b> (the specific output you want), and a <b>format</b> (bullets, table, word count). The prompts above follow that formula &mdash; notice how each one tells ChatGPT exactly what shape the answer should take. Reuse the structure and you can write your own.</p>
+<h2>FAQ</h2><div class="faq">
+<details><summary>Do these work with other AI chatbots?</summary><p>Yes &mdash; the role, context, task, format structure works in Gemini, Claude, and any capable chatbot, not just ChatGPT.</p></details>
+<details><summary>Where are the other 40 prompts?</summary><p>The full 50-prompt pack ships inside the free AI Tool Starter Guide below, organized by use case so you can find the right one fast.</p></details>
+</div>
+<section class="magnet">
+  <h2>Free download: The AI Tool Starter Guide</h2>
+  <p>One PDF with the exact free tools to start with, what to skip, and a simple first-week plan. No spam, unsubscribe anytime.</p>
+  <a class="btn lime" href="https://beacons.ai/aitoolstackhq?utm_source=landing&utm_medium=web&utm_campaign=lp-chatgpt-prompts&utm_content=starter-guide" rel="noopener">Get the free guide &rarr;</a>
+</section>
+<h2>Keep exploring</h2>
+<div class="more"><a href="best-free-ai-tools.html">10 Best Free AI Tools in 2026 &rarr;</a><a href="best-ai-side-hustles.html">7 AI Side Hustles That Actually Pay &rarr;</a><a href="best-ai-writing-tools.html">Best AI Writing Tools, Tested &amp; Ranked &rarr;</a></div>
+</main>
+<footer><div class="wrap">
+<p><b>Affiliate disclosure:</b> AI Toolstack participates in affiliate programs (including PartnerStack and Impact). Purchases made through links on this site may earn us a commission at no additional cost to you. Opinions are our own.</p>
+<p>&copy; 2026 AI Toolstack &middot; <a href="https://beacons.ai/aitoolstackhq">All tools &amp; links</a> &middot; theaitoolstack@gmail.com</p>
+</div></footer>
+</body>
+</html>
